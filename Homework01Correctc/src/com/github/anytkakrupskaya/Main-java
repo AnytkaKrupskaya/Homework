@@ -1,10 +1,15 @@
-/** 
-* Created by Аня on 23.03.2016. 
-*/ 
+package com.github.anytkakrupskaya; 
+
 public class Main { 
 public static void main(String[] args) { 
-City a = new City(); 
-String n = a.toString(); 
-System.out.println(n); 
+City city = new City (); 
+
+city.setName("London"); 
+city.setArea(8); 
+city.setMayor("Johnson"); 
+city.setNumberOfResidents(4589658); 
+city.setCoordinates(57579); 
+
+System.out.println(city.toString()); 
 } 
 }
