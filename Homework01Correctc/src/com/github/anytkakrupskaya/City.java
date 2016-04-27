@@ -36,12 +36,14 @@ public class City {
         this.latitude = latitude;
     }
 
-    public int getLatitude() {return latitude;}
+    public double getLatitude() {return latitude;}
 
     public void setLongitude (double longitude) {
         this.longitude = longitude;
     }
-    public int getLongitude() {return longitude;}
+    public double getLongitude() {return longitude;}
+
+    public City() {}
 
     public City (String name, int area, String mayor, int numberOfResidents, double latitude, double longitude ) {
         this.name = name;
