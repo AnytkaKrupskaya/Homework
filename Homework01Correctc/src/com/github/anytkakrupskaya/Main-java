@@ -8,7 +8,8 @@ city.setName("London");
 city.setArea(8); 
 city.setMayor("Johnson"); 
 city.setNumberOfResidents(4589658); 
-city.setCoordinates(57579); 
+city.setLatitude(7656);
+city.setLongitude(93775);
 
 System.out.println(city.toString()); 
 } 
