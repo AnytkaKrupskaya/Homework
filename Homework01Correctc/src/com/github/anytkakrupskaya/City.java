@@ -42,16 +42,16 @@ public class City {
     
     
    public City (String name, int area, String mayor, int numberOfResidents, double latitude, double longitude ) { 
-    this.name = name; 
-    this.area=area; 
-    this.mayor=mayor ; 
-    this.numberOfResidents=numberOfResidents; 
-    this.latitude=atitude ; 
-    this.longitude = longitude;
-    
+        this.name = name; 
+        this.area=area; 
+        this.mayor=mayor ; 
+        this.numberOfResidents=numberOfResidents; 
+        this.latitude=atitude ; 
+        this.longitude = longitude;
+   }
+   
     public String toString() { 
-    return "About city \nName: " + this.name + "\n area: " + this.area + "\n mayor: " + this.mayor + "\n number of residents: " + this.numberOfResidents + "\n latitude: " + this.latitude + "\n longitudes: " + this.longitude; 
-
-} 
+        return "About city \nName: " + this.name + "\n area: " + this.area + "\n mayor: " + this.mayor + "\n number of residents: " + this.numberOfResidents + "\n latitude: " + this.latitude + "\n longitudes: " + this.longitude; 
+    } 
 
 }
